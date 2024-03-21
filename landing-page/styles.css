@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.services {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: #eee;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
