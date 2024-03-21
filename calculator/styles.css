@@ -20,11 +20,16 @@
     height: 80px;
     text-align: right;
     font-size: 2rem;
-    border: none;
+    border: solid;
     padding: 10px;
     background: white;
   }
 
   .calculator button:active {
     background: darkgray;
+  }
+
+  /*final touch*/
+  .item1 {
+    grid-column: 1 / span 2;
   }
