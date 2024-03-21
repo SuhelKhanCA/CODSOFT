@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, rgb(239, 241, 192), rgb(192, 95, 116));
+  background: linear-gradient(to right, rgb(239, 241, 192), rgb(243, 219, 225));
   }
 
   .calculator-grid {
@@ -32,13 +32,13 @@ body {
 
       .span-two {
         grid-column: span 2;
-        color: #adf802;
-        background-color: rgba(80, 179, 236, 0.8);
+        color: #101407;
+        background-color: rgba(80, 236, 158, 0.8);
       }
 
       .output{
         grid-column: 1 / -1;
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: rgba(58, 82, 48, 0.75);
         display: flex;
         align-items: flex-end;
         justify-content: space-around;
