@@ -1,59 +1,39 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: Gotham Rounded, sans-serif;
-  font-weight: normal;
-}
-
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, rgb(239, 241, 192), rgb(243, 219, 225));
-  }
-
-  .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-    }
-
-    .calculator-grid > button {
-      cursor: pointer;
-      font-size: 2rem;
-      border: 1px, solid #FFFFFF;
-      outline: none;     
-    }
-
-      .calculator-grid > button:hover {
-        background-color: #a9a9a9;
-      }
-
-      .span-two {
-        grid-column: span 2;
-        color: #101407;
-        background-color: rgba(80, 236, 158, 0.8);
-      }
-
-      .output{
-        grid-column: 1 / -1;
-        background-color: rgba(58, 82, 48, 0.75);
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-around;
-        flex-direction: column;
-        padding: 10px;
-        word-wrap: break-word;
-        word-break: break-all;
-      }
-
-      .output .previous-operand{
-        color: rgba(255,255, 255, 0.75);
-        font-size: 1.5rem;
-      }
-
-      .output .current-operand{
-        color: white;
-        font-size: 2.5rem;
-      }
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+.display {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: right;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 18px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
