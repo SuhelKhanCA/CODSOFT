@@ -47,3 +47,16 @@ html, body {
     font-size: 1.6rem;
     line-height: 1.5;
   }
+
+  /* || header layout */
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  body > * {
+    background-color: rgb(235, 149, 149);
+    padding: 1%;
+  }
