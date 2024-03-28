@@ -1,21 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Open Graph Protocol -->
-    <!-- ============== Open Graph Protocol =========== -->
-    <meta property="og:title" content="My Landing page" />
-    <meta property="og:type" content="Website" />
-    <meta property="og:url" content="......." />
-    <meta property="og:image" content="...." />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-        <img src="portfolio.png" alt="a simple portfolio logo">
-      </header>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Open Graph Protocol -->
+        <!-- ============== Open Graph Protocol =========== -->
+        <meta property="og:title" content="My Landing page" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:url" content="......." />
+        <meta property="og:image" content="...." />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                background-image: url('bg-image.jpg');
+                background-size: cover;
+                background-position: center;
+                opacity: 0.7;
+            }
+            #hd{
+                display: flex;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="container" id="hd">
+                <img src="portfolio.png" alt="a simple portfolio logo">
+                <h1>Suhel Khan</h1>
+                <p>Web Developer</p>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="profile.jpg" alt="Suhel Khan">
+                <p>I am a web developer with expertise in HTML, CSS, and JavaScript. I have been working in the field
+                    for 5 years and have experience in building responsive and user-friendly websites.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Web Design</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1</p>
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2</p>
+                    <img src="project2.jpg" alt="Project 2">
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <a href="resume.pdf" download>Download Resume</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: suhel.hata@gmail.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 suhel.hata@gmailghts reserved.</p>
+                <p>Follow me on <a href="https://twitter.com/suhel.hata@gmail" _blank">Twitter</a></p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
 </html>
