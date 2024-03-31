@@ -46,6 +46,7 @@ header h1 {
 
 #about img {
   max-width: 100%;
+  width: 500px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -112,10 +113,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(20, 18, 18);
   text-decoration: none;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
 }
+/* #pr{
+  opacity: 100%;
+  height: 600px;
+} */

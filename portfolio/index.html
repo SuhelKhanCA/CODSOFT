@@ -12,12 +12,14 @@
         <meta property="og:image" content="...." />
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <style>
             body {
                 background-image: url('bg-image.jpg');
                 background-size: cover;
                 background-position: center;
-                opacity: 0.7;
+                /* opacity: 0.7; */
             }
             #hd{
                 display: flex;
@@ -45,7 +47,7 @@
         <section id="about">
             <div class="container">
                 <h2>About Me</h2>
-                <img src="profile.jpg" alt="Suhel Khan">
+                <img id="pr" src="My-pic.jpg" alt="Suhel Khan">
                 <p>I am a web developer with expertise in HTML, CSS, and JavaScript. I have been working in the field
                     for 5 years and have experience in building responsive and user-friendly websites.</p>
             </div>
@@ -55,11 +57,11 @@
             <div class="container">
                 <h2>Skills</h2>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Responsive Web Design</li>
-                    <li>UI/UX Design</li>
+                    <li ><i class='bx bxl-html5 skills__icon'></i>HTML5</li>
+                    <li><i class='bx bxl-css3 skills__icon'></i>CSS3</li>
+                    <li><i class='bx bxl-javascript skills__icon' ></i>JavaScript</li>
+                    <li><i class='bx bxs-paint skills__icon'></i></i>Responsive Web Design</li>
+                    <li>UI/UX Design<i class='bx bxs-paint skills__icon'></i></li>
                 </ul>
             </div>
         </section>
@@ -70,12 +72,12 @@
                 <div class="project">
                     <h3>Project 1</h3>
                     <p>Description of Project 1</p>
-                    <img src="project1.jpg" alt="Project 1">
+                    <img src="project1.png" alt="Project 1">
                 </div>
                 <div class="project">
                     <h3>Project 2</h3>
                     <p>Description of Project 2</p>
-                    <img src="project2.jpg" alt="Project 2">
+                    <img src="projects2.png" alt="Project 2">
                 </div>
             </div>
         </section>
@@ -97,7 +99,7 @@
 
         <footer>
             <div class="container">
-                <p>&copy; 2024 suhel.hata@gmailghts reserved.</p>
+                <p>&copy; 2024 suhel.hata@gmail.com All rights reserved.</p>
                 <p>Follow me on <a href="https://twitter.com/suhel.hata@gmail" _blank">Twitter</a></p>
             </div>
         </footer>
